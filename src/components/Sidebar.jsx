@@ -32,10 +32,13 @@ const SidebarClosed = () => {
       ]
 return(
 
+/*  condition ternaire: lorsque la sidebar est ouverte on augmente le w */
+
 <div className= {` ${isVisible ? 'w-[250px] duration-300' : 'w-[59px]'} h-screen bg-white justify-start items-start flex`}>
     <div className={` ${isVisible ? 'w-[250px] duration-300' : 'w-[59px]'} self-stretch pt-4 flex-col justify-start items-start gap-4 inline-flex`}>
     <div className=" pl-5 pt-5 justify-start items-start gap-2.5 inline-flex">
             <img className="min-w-6 min-h-6 relative" alt="logo" src={Logo} />
+{/*  lorsque la sidebar est ouverte, affichage du texte */} 
             {isVisible &&
             <img className="text-gray-900 text-2xl font-bold leading-9 duration-300" alt="logo" src={Sapiologie}/>
             }
@@ -44,6 +47,8 @@ return(
             <div className="self-stretch h-auto flex-col justify-start items-start gap-4 flex">
                 {isVisible?  
                 <ul className="h-auto pt-4 flex-col justify-start items-start gap-4 flex duration-300">
+{/* utilisation de la méthode map pou afficher tous les menus de la sidebar*/} 
+
                 {Menu1.map((Menu) => (
                      <HexagonOpen Menu={Menu}/>
                 ))}                    
@@ -57,6 +62,8 @@ return(
                 ))}                    
                 </ul> 
                 }
+                {/* séparateur central */} 
+
                 <div className={` ${isVisible ? 'w-[250px]' : 'w-[59px]'} h-px bg-gray-200`} />
                 {isVisible?  
                 <ul className="h-auto pt-4 flex-col justify-start items-start gap-4 flex duration-300">
@@ -95,6 +102,8 @@ return(
             </div>
         </div>
     </div>
+                {/* séparateur latéral */} 
+
     <div className="h-screen self-stretch origin-top-left border border-gray-200"></div>
 </div>
 )
