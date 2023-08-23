@@ -49,16 +49,16 @@ return(
                 <ul className="h-auto pt-4 flex-col justify-start items-start gap-4 flex duration-300">
 {/* utilisation de la méthode map pou afficher tous les menus de la sidebar*/} 
 
-                {Menu1.map((Menu) => (
-                     <HexagonOpen Menu={Menu}/>
+                {Menu1.map((Menu, index) => (
+                     <HexagonOpen Menu={Menu} key={index}/>
                 ))}                    
 
                 </ul>
                 
                 :
                 <ul className="h-auto pb-4 flex-col justify-start items-start gap-4 flex">
-                {Menu1.map((Menu) => (
-                    <HexagonClosed/>
+                {Menu1.map((Menu, index) => (
+                    <HexagonClosed Menu={Menu} key={index}/>
                 ))}                    
                 </ul> 
                 }
@@ -68,14 +68,14 @@ return(
                 {isVisible?  
                 <ul className="h-auto pt-4 flex-col justify-start items-start gap-4 flex duration-300">
                 {Menu2.map((Menu, index) => (
-                <HexagonOpen Menu={Menu}/>
+                <HexagonOpen Menu={Menu} key={index}/>
                  ))}                    
                 </ul>
                 
                 :
                 <ul className="h-auto pb-3 flex-col justify-start items-start gap-4 flex">
                 {Menu2.map((Menu, index) => (
-                 <HexagonClosed/>
+                 <HexagonClosed Menu={Menu} key={index}/>
                 ))}                    
                 </ul> 
                 }
@@ -96,7 +96,7 @@ return(
                 <div className={` ${isVisible ? 'w-[250px] pl-5 gap-2.5 justify-start' : 'w-[59px] justify-center py-2'} h-10 items-center gap-[17px] inline-flex`}>
                     <img className="w-6 h-6 relative rounded-[60px]" alt="Portrait" src={Portrait}/>
                     {isVisible &&
-                    <div className=" text-gray-600 text-base font-normal leading-normal duration-300">John Doe</div>
+                    <div className=" text-base font-normal leading-normal text-gray-600 duration-300">John Doe</div>
                     }
                 </div>
             </div>

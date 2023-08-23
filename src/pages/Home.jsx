@@ -4,9 +4,9 @@ import Sidebar from "../components/Sidebar";
 
 const Home = () => {
     return(
-        <main className=" w-screen h-screen justify-start items-start inline-flex">
+        <main className=" inline-flex h-screen w-screen items-start justify-start">
         <Sidebar/>
-        <div className="flex flex-wrap w-max h-auto px-8 py-4 gap-5">
+        <div className="flex h-screen w-screen flex-wrap content-start gap-4 px-8 py-4">
         <Card/>
         <Card/>
         <Card/>
