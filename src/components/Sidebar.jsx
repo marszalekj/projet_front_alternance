@@ -33,18 +33,18 @@ return(
 
 /*  condition ternaire: lorsque la sidebar est ouverte on augmente le w */
 
-<div className= {` ${isVisible ? 'w-[250px] duration-300' : 'w-[59px]'} h-screen bg-white justify-start items-start flex`}>
-    <div className={` ${isVisible ? 'w-[250px] duration-300' : 'w-[59px]'} self-stretch pt-4 flex-col justify-start items-start gap-4 inline-flex`}>
-    <div className=" pl-5 pt-5 justify-start items-start gap-2.5 inline-flex">
+<div className= {` ${isVisible ? 'w-[250px] duration-300' : 'w-[59px]'} flex h-screen items-start justify-start bg-white`}>
+    <div className={` ${isVisible ? 'w-[250px] duration-300' : 'w-[59px]'} inline-flex flex-col items-start justify-start gap-4 self-stretch pt-4`}>
+    <div className=" inline-flex items-start justify-start gap-2.5 pl-5 pt-5">
 {/*  lorsque la sidebar est ouverte, affichage du texte */} 
             {isVisible &&
-            <img className="text-gray-900 text-2xl font-bold leading-9 duration-300" alt="logo" src={Sapiologie}/>
+            <img className="text-2xl font-bold leading-9 text-gray-900 duration-300" alt="logo" src={Sapiologie}/>
             }
         </div>
-        <div className="w-[59px] h-screen grow shrink basis-0 flex-col justify-between items-start gap-4 flex">
-            <div className="self-stretch h-auto flex-col justify-start items-start gap-4 flex">
+        <div className="flex h-screen w-[59px] shrink grow basis-0 flex-col items-start justify-between gap-4">
+            <div className="flex h-auto flex-col items-start justify-start gap-4 self-stretch">
                 {isVisible?  
-                <ul className="h-auto pt-4 flex-col justify-start items-start gap-4 flex duration-300">
+                <ul className="flex h-auto flex-col items-start justify-start gap-4 pt-4 duration-300">
 {/* utilisation de la méthode map pou afficher tous les menus de la sidebar*/} 
 
                 {Menu1.map((Menu, index) => (
@@ -54,7 +54,7 @@ return(
                 </ul>
                 
                 :
-                <ul className="h-auto pb-4 flex-col justify-start items-start gap-4 flex">
+                <ul className="flex h-auto flex-col items-start justify-start gap-4 pb-4">
                 {Menu1.map((Menu, index) => (
                     <HexagonClosed Menu={Menu} key={index}/>
                 ))}                    
@@ -64,35 +64,35 @@ return(
 
                 <div className={` ${isVisible ? 'w-[250px]' : 'w-[59px]'} h-px bg-gray-200`} />
                 {isVisible?  
-                <ul className="h-auto pt-4 flex-col justify-start items-start gap-4 flex duration-300">
+                <ul className="flex h-auto flex-col items-start justify-start gap-4 pt-4 duration-300">
                 {Menu2.map((Menu, index) => (
                 <HexagonOpen Menu={Menu} key={index}/>
                  ))}                    
                 </ul>
                 
                 :
-                <ul className="h-auto pb-3 flex-col justify-start items-start gap-4 flex">
+                <ul className="flex h-auto flex-col items-start justify-start gap-4 pb-3">
                 {Menu2.map((Menu, index) => (
                  <HexagonClosed Menu={Menu} key={index}/>
                 ))}                    
                 </ul> 
                 }
             </div>
-            <div className="self-stretch h-[116px] pt-3 pb-4 flex-col justify-end items-start gap-2 flex">
+            <div className="flex h-[116px] flex-col items-start justify-end gap-2 self-stretch pb-4 pt-3">
             <div className="flex">                    
-            <button className={` ${isVisible ? 'w-[250px] pl-5 gap-2.5 justify-start duration-300' : 'w-[59px] justify-center py-2'} h-10 items-center gap-[17px] inline-flex`} type="button" onClick={() => handleClick()}>
+            <button className={` ${isVisible ? 'w-[250px] justify-start gap-2.5 pl-5 duration-300' : 'w-[59px] justify-center py-2'} inline-flex h-10 items-center gap-[17px]`} type="button" onClick={() => handleClick()}>
                         {
-                            isVisible ? <img className="min-w-6 min-h-6 relative text-gray-600 duration-300" alt="chevron gauche" src={ChevronGauche } />
-                            :<img className="min-w-6 min-h-6 relative text-gray-500 " alt="chevron droite" src={ChevronDroite} />
+                            isVisible ? <img className="relative text-gray-600 duration-300" alt="chevron gauche" src={ChevronGauche } />
+                            :<img className="relative text-gray-500 " alt="chevron droite" src={ChevronDroite} />
 
                         }
                     {isVisible &&
-                    <p className=" text-gray-600 text-base font-normal leading-normal duration-300">Collapse</p>
+                    <p className=" text-base font-normal leading-normal text-gray-600 duration-300">Collapse</p>
                     }
                     </button>
                 </div>
-                <div className={` ${isVisible ? 'w-[250px] pl-5 gap-2.5 justify-start' : 'w-[59px] justify-center py-2'} h-10 items-center gap-[17px] inline-flex`}>
-                    <img className="w-6 h-6 relative rounded-[60px]" alt="Portrait" src={Portrait}/>
+                <div className={` ${isVisible ? 'w-[250px] justify-start gap-2.5 pl-5' : 'w-[59px] justify-center py-2'} inline-flex h-10 items-center gap-[17px]`}>
+                    <img className="relative h-6 w-6 rounded-[60px]" alt="Portrait" src={Portrait}/>
                     {isVisible &&
                     <div className=" text-base font-normal leading-normal text-gray-600 duration-300">John Doe</div>
                     }
@@ -102,7 +102,7 @@ return(
     </div>
                 {/* séparateur latéral */} 
 
-    <div className="h-screen self-stretch origin-top-left border border-gray-200"></div>
+    <div className="h-screen origin-top-left self-stretch border border-gray-200"></div>
 </div>
 )
 }
