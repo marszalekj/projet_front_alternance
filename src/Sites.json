@@ -2,28 +2,28 @@
   {
     "id": "1",
     "title": "Kasa, real estate website",
-    "cover": "src/assets/Screenshot 2023-08-24 at 11.07.01.png",
+    "cover": "https://github.com/marszalekj/projet_front_alternance/blob/main/src/assets/image_kasa.png",
     "link": "https://marszalekj.github.io/P7/index.html",
     "description": "Building a real estate responsive website using React "
   },
   {
     "id": "2",
     "title": "La Panthère, SEO project",
-    "cover": "src/assets/Screenshot 2023-08-24 at 11.07.15.png",
+    "cover": "https://github.com/marszalekj/projet_front_alternance/blob/main/src/assets/image_panthere.png",
     "link": "https://marszalekj.github.io/p4/index.html",
     "description": "Improve the SEO of an agency website"
   },
   {
     "id": "3",
     "title": "Ohmyfood, a restaurant booking website",
-    "cover": "src/assets/Screenshot 2023-08-24 at 11.07.51.png",
+    "cover": "https://github.com/marszalekj/projet_front_alternance/blob/main/src/assets/image_omf.png",
     "link": "https://marszalekj.github.io/Projet_3_Marszalek_Jeremy/index.html#logo",
     "description": "Building a responsive website using only CSS & HTML"
   },
   {
     "id": "4",
     "title": "Arbitrage, crypto project",
-    "cover": "src/assets/Screenshot 2023-08-24 at 14.22.38.png",
+    "cover": "https://github.com/marszalekj/projet_front_alternance/blob/main/src/assets/image_crypto.png",
     "link": "https://marszalekj.github.io/projet_arbitrage/index.html",
     "description": "Building an arbitrage website using API, React, Tailwind"
   }
