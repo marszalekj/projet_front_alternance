@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projet_portfolio/static/css/main.90f27eaa.css",
-    "main.js": "/projet_portfolio/static/js/main.3db90e5b.js",
+    "main.js": "/projet_portfolio/static/js/main.4cd896f4.js",
     "static/media/Robert Brown.png": "/projet_portfolio/static/media/Robert Brown.43730bca215f092fdc29.png",
     "static/media/Sapiologie.svg": "/projet_portfolio/static/media/Sapiologie.a48e4488879cb2fbc0225e56b0e2124e.svg",
     "static/media/Hexagon.svg": "/projet_portfolio/static/media/Hexagon.d4fcad267320e437dd92d5ec224177e2.svg",
@@ -9,10 +9,10 @@
     "static/media/chevron-double-right.svg": "/projet_portfolio/static/media/chevron-double-right.89bbf7f4e27b290a01dcf8e0eb42e40f.svg",
     "static/media/chevron-double-left.svg": "/projet_portfolio/static/media/chevron-double-left.63887a49a460b7b4ed31e3771b0427d5.svg",
     "main.90f27eaa.css.map": "/projet_portfolio/static/css/main.90f27eaa.css.map",
-    "main.3db90e5b.js.map": "/projet_portfolio/static/js/main.3db90e5b.js.map"
+    "main.4cd896f4.js.map": "/projet_portfolio/static/js/main.4cd896f4.js.map"
   },
   "entrypoints": [
     "static/css/main.90f27eaa.css",
-    "static/js/main.3db90e5b.js"
+    "static/js/main.4cd896f4.js"
   ]
 }
