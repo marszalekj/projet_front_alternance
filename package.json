@@ -1,6 +1,6 @@
-{"homepage": "https://marszalekj.github.io/projet_portfolio",
-
-  "name": "projet_sapiologie",
+{
+  "homepage": "https://marszalekj.github.io/projet_portfolio",
+  "name": "projet_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +16,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "postdeploy": "echo 'Déploiement terminé.'",
+    "deploy": "gh-pages -d build",
+    "postdeploy": "echo 'Déploiement terminé.'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,6 +50,7 @@
     "eslint": "^8.47.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-tailwindcss": "^3.13.0",
+    "gh-pages": "^6.0.0",
     "prettier": "^3.0.2",
     "prettier-plugin-tailwindcss": "^0.5.3"
   }
