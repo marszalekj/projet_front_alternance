@@ -2,29 +2,36 @@
   {
     "id": "1",
     "title": "Kasa, real estate website",
-    "cover": "https://github.com/marszalekj/projet_portfolio/blob/main/src/assets/image_kasa.png",
+    "cover": "https://images.radio-canada.ca/q_auto,w_844/v1/alimentation/recette/16x9/poulet-barbecue-maison.jpg",
     "link": "https://marszalekj.github.io/P7/index.html",
     "description": "Building a real estate responsive website using React "
   },
   {
     "id": "2",
     "title": "La Panthère, SEO project",
-    "cover": "https://github.com/marszalekj/projet_portfolio/blob/main/src/assets/image_panthere.png",
+    "cover": "https://images.radio-canada.ca/q_auto,w_844/v1/alimentation/recette/16x9/poulet-barbecue-maison.jpg",
     "link": "https://marszalekj.github.io/p4/index.html",
     "description": "Improve the SEO of an agency website"
   },
   {
     "id": "3",
     "title": "Ohmyfood, a restaurant booking website",
-    "cover": "https://github.com/marszalekj/projet_portfolio/blob/main/src/assets/image_omf.png",
+    "cover": "https://images.radio-canada.ca/q_auto,w_844/v1/alimentation/recette/16x9/poulet-barbecue-maison.jpg",
     "link": "https://marszalekj.github.io/Projet_3_Marszalek_Jeremy/index.html#logo",
     "description": "Building a responsive website using only CSS & HTML"
   },
   {
     "id": "4",
     "title": "Arbitrage, crypto project",
-    "cover": "https://github.com/marszalekj/projet_portfolio/blob/main/src/assets/image_crypto.png",
+    "cover": "https://images.radio-canada.ca/q_auto,w_844/v1/alimentation/recette/16x9/poulet-barbecue-maison.jpg",
     "link": "https://marszalekj.github.io/projet_arbitrage/index.html",
-    "description": "Building an arbitrage website using API, React, Tailwind"
+    "description": "Building an arbitrage website using API, React, Tailwind (in process)"
+  },
+  {
+    "id": "4",
+    "title": "Arbitrage, crypto project",
+    "cover": "https://images.radio-canada.ca/q_auto,w_844/v1/alimentation/recette/16x9/poulet-barbecue-maison.jpg",
+    "link": "https://marszalekj.github.io/projet_arbitrage/index.html",
+    "description": "Building an arbitrage website using API, React, Tailwind (in process)"
   }
 ]
