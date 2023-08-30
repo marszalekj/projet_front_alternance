@@ -6,7 +6,7 @@ const Card = (props) => {
 
 <Link to={props.site.link} key={props.site.id}>
 
-<p className="absolute inset-x-0 bottom-0 h-1/3 w-full rounded-b-lg bg-black/60 px-2	py-2	 text-center text-lg font-bold text-white" >{props.site.description}</p>
+<p className="absolute inset-x-0 bottom-0 h-1/3 w-full rounded-b-lg bg-black/60 p-2	text-center	 text-lg font-bold text-white" >{props.site.description}</p>
 <img className="flex h-full w-full rounded-lg border object-cover	" src={props.site.cover} alt="cover image"/>
 <div className=' absolute left-0 top-0 h-full w-full rounded-lg bg-gradient-to-b from-transparent to-black/50'></div>
 
