@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Card = (props) => {
     return (
-<div className="relative max-h-[120px] min-h-[60px] min-w-[120px] max-w-lg  rounded-lg border	border-gray-200 bg-gradient-to-tr from-teal-700 to-black shadow md:max-h-[160px]  md:max-w-xs lg:max-h-[220px] lg:max-w-sm">
+<div className="relative max-h-[120px] min-h-[60px] min-w-[120px] max-w-lg  rounded-lg border	border-gray-200 bg-gradient-to-tr from-teal-700 to-black shadow hover:scale-110 hover:opacity-50 hover:duration-300 md:max-h-[160px] md:max-w-xs lg:max-h-[220px] lg:max-w-sm">
 
 <Link to={props.site.link} key={props.site.id}>
 
