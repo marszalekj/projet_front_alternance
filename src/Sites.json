@@ -21,6 +21,13 @@
     "description": "Building a mobile booking website using CSS & HTML"
   },
   {
+    "id": "5",
+    "title": "Piiquante, back end project",
+    "cover": "https://repository-images.githubusercontent.com/415004142/add482f6-468a-4a9f-8e20-57c09226ea0b",
+    "link": "https://github.com/marszalekj/p6",
+    "description": "Building an API using Node.js and MongoDB"
+  },
+  {
     "id": "4",
     "title": "Arbitrage, crypto project",
     "cover": "https://i.goopics.net/ulgfzv.png",

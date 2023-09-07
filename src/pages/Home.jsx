@@ -9,7 +9,7 @@ const Home = () => {
         <main className=" inline-flex h-screen w-screen items-start justify-start">
         <Sidebar/>
         <div className="flex h-screen w-screen flex-col justify-center gap-8 p-4 md:p-8">
-        <h1 className="flex justify-center">TEST</h1>
+        <h1 className="flex justify-center font-lato text-4xl font-bold ">My portfolio</h1>
         <div className=" flex  flex-wrap justify-center gap-6 ">
         {
             Sites.map((site) => (

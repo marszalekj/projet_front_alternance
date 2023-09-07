@@ -18,16 +18,12 @@ const SidebarClosed = () => {
     }
 
     const Menu1 = [
-        { title: "Dashboard"},
-        { title: "Statistiques"},
-        { title: "Indices"},
-        { title: "Recommendations"},
+        { title: "Who am I", link:"Aboutme"},
+        { title: "My portfolio", link:"Portfolio"},
       ]
       const Menu2 = [
         
-        { title: "Compte"},
-        { title: "Parametres"},
-        { title: "Nouveautés"},
+        { title: "Social", link:"Contact"},
       ]
 return(
 
@@ -46,7 +42,7 @@ return(
                 {isopen?  
                 <ul className="flex h-auto flex-col items-start justify-start gap-4 pt-4 duration-500">
 {/* utilisation de la méthode map pou afficher tous les menus de la sidebar*/} 
-                <p className="inline-flex h-10 w-[250px] items-center justify-center gap-[17px] font-bold ">About me</p>
+                <p className="inline-flex h-10 w-[250px] items-center justify-center gap-[17px] font-lato text-xl font-semibold italic ">About me</p>
 
                 {Menu1.map((Menu, index) => (
                      <HexagonOpen className="duration-500" Menu={Menu} key={index}/>
@@ -66,7 +62,7 @@ return(
                 <div className={` ${isopen ? 'w-[250px]' : 'w-[59px]'} h-px bg-gray-200`} />
                 {isopen?  
                 <ul className="flex h-auto flex-col items-start justify-start gap-4 pt-4 duration-500">
-                    <p className="inline-flex h-10 w-[250px] items-center justify-center gap-[17px] font-bold ">Contact me</p>
+                    <p className="inline-flex h-10 w-[250px] items-center justify-center gap-[17px] font-lato text-xl font-semibold italic">Contact me</p>
                 {Menu2.map((Menu, index) => (
                 <HexagonOpen className="duration-500" Menu={Menu} key={index}/>
                  ))}                    
