@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Kasa, real estate website",
     "cover": "https://i.goopics.net/z267gy.png",
-    "link": "https://marszalekj.github.io/P7/index.html",
+    "link": "https://marszalekj.github.io/P7/",
     "description": "Building a real estate responsive website using React "
   },
   {
@@ -31,7 +31,7 @@
     "id": "4",
     "title": "Arbitrage, crypto project",
     "cover": "https://i.goopics.net/ulgfzv.png",
-    "link": "https://marszalekj.github.io/projet_arbitrage/index.html",
+    "link": "https://marszalekj.github.io/projet_arbitrage/",
     "description": "Building an arbitrage website using API, React, Tailwind (in process)"
   }
 ]
