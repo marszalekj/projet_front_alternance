@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 const Router = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/projet_portfolio">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Portfolio" element={<Home />} />
