@@ -5,7 +5,9 @@ import ChevronDroite from "../assets/chevron-double-right.svg"
 import ChevronGauche from "../assets/chevron-double-left.svg"
 import HexagonOpen from "./HexagonOpen"
 import HexagonClosed from "./HexagonClosed"
-
+import Moi from "../assets/moi.png"
+import PCicon from "../assets/iconpc.png"
+import Arobase from "../assets/arobase.png"
 
 
 
@@ -18,12 +20,12 @@ const SidebarClosed = () => {
     }
 
     const Menu1 = [
-        { title: "Who am I", link:"Aboutme"},
-        { title: "My portfolio", link:"Portfolio"},
+        { title: "Who am I", link:"Aboutme", photo:{Moi}},
+        { title: "My portfolio", link:"Portfolio", photo:{PCicon}},
       ]
       const Menu2 = [
         
-        { title: "Social", link:"Contact"},
+        { title: "Social", link:"Contact", photo:{Arobase}},
       ]
 return(
 
@@ -45,7 +47,7 @@ return(
                 <p className="inline-flex h-10 w-[250px] items-center justify-center gap-[17px] font-lato text-xl font-semibold italic ">About me</p>
 
                 {Menu1.map((Menu, index) => (
-                     <HexagonOpen className="duration-700" Menu={Menu} key={index}/>
+                     <HexagonOpen className="duration-700 " Menu={Menu} key={index}/>
                 ))}                    
 
                 </ul>
