@@ -2,6 +2,28 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      keyframes: {
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "white",
+          },
+        },
+      },
+      animation: {
+        typing: "typing 1.5s steps(20)  alternate, blink .7s infinite",
+      },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
       },
