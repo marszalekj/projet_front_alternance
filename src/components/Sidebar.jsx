@@ -13,7 +13,7 @@ import Arobase from "../assets/arobase.png"
 
 const SidebarClosed = () => {
     // initialisation de l'etat a false
-    const [isopen, setisopen] = useState(true)
+    const [isopen, setisopen] = useState(false)
 // gestion des evenements via operateur ternaire    
     const handleClick = () => {
         isopen ? setisopen(false) : setisopen(true)
