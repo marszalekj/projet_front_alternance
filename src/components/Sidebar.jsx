@@ -20,12 +20,12 @@ const SidebarClosed = () => {
     }
 
     const Menu1 = [
-        { title: "Who am I", link:"Aboutme", photo:{Moi}},
-        { title: "My portfolio", link:"Portfolio", photo:{PCicon}},
+        { title: "Who am I", link:"Aboutme", img:{Moi}},
+        { title: "My portfolio", link:"Portfolio", img:{PCicon}},
       ]
       const Menu2 = [
         
-        { title: "Social", link:"Contact", photo:{Arobase}},
+        { title: "Social", link:"Contact", img:{Arobase}},
       ]
 return(
 
@@ -47,7 +47,7 @@ return(
                 <p className="inline-flex h-10 w-[250px] items-center justify-center gap-[17px] font-lato text-xl font-semibold italic ">About me</p>
 
                 {Menu1.map((Menu, index) => (
-                     <HexagonOpen className="duration-700 " Menu={Menu} key={index}/>
+                     <HexagonOpen className="duration-700 " Menu={Menu} img={Menu1.img} key={index}/>
                 ))}                    
 
                 </ul>
