@@ -23,7 +23,7 @@ const Aboutme = () => {
         <Glitch/>
         </div>
         <div className="flex flex-col pt-12">
-        <h2 className="animate-text bg-gradient-to-r from-black via-slate-500 to-black bg-clip-text  pl-28 pr-80 text-start text-lg font-medium text-transparent">
+        <h2 className="animate-text bg-gradient-to-r from-black via-slate-500 to-black bg-clip-text  pl-28 pr-80 text-start text-sm font-medium text-transparent">
         Hello world ! <br/> My name is Jérémy, a french guy living between Toulouse and Barcelona. After a <b>Master&apos;s degree in Digital Law</b> (Toulouse Capitole University) and <b>5 years in Data Privacy</b> field in Paris (as consultant in Financial Services and DPO in health sector), I completed a 9-month training course in 2023 to become a developer and am currently looking for <b>my first opportunity</b> as dev.
         </h2>
 
