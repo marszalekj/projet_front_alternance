@@ -22,12 +22,12 @@ const Aboutme = () => {
         <div className="mt-12">
         <Glitch/>
         </div>
-        <div className="flex flex-col pt-12">
+        <div className="flex flex-col pt-14">
         <h2 className="animate-text bg-gradient-to-r from-black via-slate-500 to-black bg-clip-text  pl-28 pr-80 text-start text-xl font-medium text-transparent">
         Hello world ! <br/> My name is Jérémy, a french guy living between Toulouse and Barcelona. After a <b>Master&apos;s degree in Digital Law</b> (Toulouse Capitole University) and <b>5 years in Data Privacy</b> field in Paris (as consultant in Financial Services and DPO in health sector), I completed a 9-month training course in 2023 to become a developer and am currently looking for <b>my first opportunity</b> as dev.
         </h2>
 
-        <div className="flex h-28 w-screen items-center justify-center gap-x-8">
+        <div className="mt-16 flex h-28 w-screen items-center justify-center gap-x-8">
         <h2 className="max-w-[250px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I&apos;ve worked with </h2>
         <img className="h-16 w-16"  src={JSlogo}/>
         <img className="h-16 w-16"  src={Reactlogo}/>
