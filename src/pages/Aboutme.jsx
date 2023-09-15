@@ -28,22 +28,22 @@ const Aboutme = () => {
         </h2>
 
         <div className="flex h-48 w-screen items-center justify-center gap-x-8">
-        <h2 className="max-w-[310px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I&apos;ve worked with </h2>
-        <img className="h-20 w-20" src={JSlogo}/>
-        <img className="h-20 w-20" src={Reactlogo}/>
-        <img className="h-20 w-20" src={Node}/>
-        <img className="h-20 w-20" src={Mongo}/>
-        <img className="h-20 w-20" src={Tailwind}/>
+        <h2 className="max-w-[250px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I&apos;ve worked with </h2>
+        <img className="h-16 w-16"  src={JSlogo}/>
+        <img className="h-16 w-16"  src={Reactlogo}/>
+        <img className="h-16 w-16"  src={Node}/>
+        <img className="h-16 w-16"  src={Mongo}/>
+        <img className="h-16 w-16"  src={Tailwind}/>
         </div>
         <div className="flex h-48 w-screen items-center justify-center gap-x-8">
-        <h2 className=" max-w-[300px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I&apos;m discovering </h2>
-        <img className="h-20 w-20" src={Golang}/>
-        <img className="h-20 w-20" src={Typescript}/>
+        <h2 className=" max-w-[240px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I&apos;m discovering </h2>
+        <img className="h-16 w-16" src={Golang}/>
+        <img className="h-16 w-16"  src={Typescript}/>
         </div>
         <div className="flex h-48 w-screen items-center justify-center gap-x-8">
-        <h2 className="max-w-[520px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I plan to master in the next few years </h2>
-        <img className="h-20 w-20" src={Solidity}/>
-        <img className="h-20 w-20" src={Rust}/>
+        <h2 className="max-w-[410px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I plan to master in the next few years </h2>
+        <img className="h-16 w-16"  src={Solidity}/>
+        <img className="h-16 w-16"  src={Rust}/>
         </div>
         </div>
         </div>
