@@ -3,6 +3,16 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
+        text: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
         typing: {
           "0%": {
             width: "0%",
@@ -17,12 +27,13 @@ module.exports = {
             borderColor: "transparent",
           },
           "100%": {
-            borderColor: "white",
+            borderColor: "black",
           },
         },
       },
       animation: {
-        typing: "typing 1.5s steps(20)  alternate, blink .7s infinite",
+        typing: "typing 3s steps(30) forwards  alternate, blink 1s infinite",
+        text: "text 5s ease infinite",
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],

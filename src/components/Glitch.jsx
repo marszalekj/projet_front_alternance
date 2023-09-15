@@ -30,7 +30,7 @@ const TextEffect1 = () => {
 
   return (
     <div >
-      <h1 className="relative inline-block text-4xl font-bold uppercase text-black">
+      <h1 className="relative inline-block text-6xl font-bold uppercase text-black">
         <span id="before-te1" className="absolute left-0.5 top-0 h-full w-full bg-transparent" style={{ textShadow: "-2px 0 #49FC00", clipPath: "rect(24px, 550px, 90px, 0)" }} aria-hidden="true">Text Effect 1</span> {/* glitch::before */}
         From law to code
         <span id="after-te1" className="absolute -left-0.5 top-0 h-full w-full bg-transparent" style={{ textShadow: "-2px 0 spin(#49FC00, 180)", clipPath: "rect(85px, 550px, 140px, 0)" }} aria-hidden="true">Text Effect 1</span> {/* glitch::after */}
