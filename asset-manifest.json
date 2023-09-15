@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projet_portfolio/static/css/main.fb4d145c.css",
-    "main.js": "/projet_portfolio/static/js/main.23c08aa5.js",
+    "main.css": "/projet_portfolio/static/css/main.a08b517b.css",
+    "main.js": "/projet_portfolio/static/js/main.1eb5295d.js",
     "static/media/moi.png": "/projet_portfolio/static/media/moi.ba195630725333e2887b.png",
     "static/media/logolinkedin.png": "/projet_portfolio/static/media/logolinkedin.938492b586440d799c69.png",
     "static/media/nodelogo.png": "/projet_portfolio/static/media/nodelogo.749b8af67e60d6b0dcab.png",
@@ -14,11 +14,11 @@
     "index.html": "/projet_portfolio/index.html",
     "static/media/chevron-double-right.svg": "/projet_portfolio/static/media/chevron-double-right.89bbf7f4e27b290a01dcf8e0eb42e40f.svg",
     "static/media/chevron-double-left.svg": "/projet_portfolio/static/media/chevron-double-left.63887a49a460b7b4ed31e3771b0427d5.svg",
-    "main.fb4d145c.css.map": "/projet_portfolio/static/css/main.fb4d145c.css.map",
-    "main.23c08aa5.js.map": "/projet_portfolio/static/js/main.23c08aa5.js.map"
+    "main.a08b517b.css.map": "/projet_portfolio/static/css/main.a08b517b.css.map",
+    "main.1eb5295d.js.map": "/projet_portfolio/static/js/main.1eb5295d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb4d145c.css",
-    "static/js/main.23c08aa5.js"
+    "static/css/main.a08b517b.css",
+    "static/js/main.1eb5295d.js"
   ]
 }
