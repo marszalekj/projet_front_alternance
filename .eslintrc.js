@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest:true
   },
   extends: [
     "eslint:recommended",
@@ -17,12 +18,16 @@ module.exports = {
       parser: "@typescript-eslint/parser",
       parserOptions: {
         sourceType: "script",
+        
       },
     },
   ],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
+    ecmaFeatures: {
+      "jsx": true
+    }
   },
   plugins: ["tailwindcss", "react"],
   rules: {
@@ -31,5 +36,23 @@ module.exports = {
     "tailwindcss/no-contradicting-classname": "warn",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+    "linebreak-style": 0,
+    "no-undefined": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "func-names": "error",
+    "id-length": "warn",
+    "newline-before-return": "error",
+    "space-before-blocks": "error",
+    "no-alert": "error",
+    "indent": [
+      "error",
+      2
+    ]
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 };
