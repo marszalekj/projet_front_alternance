@@ -6,6 +6,7 @@ import JSlogo from '../assets/jslogo.png'
 import Reactlogo from '../assets/reactlogo.png'
 import Node from '../assets/nodelogo.png'
 import Tailwind from '../assets/tailwindlogo.png'
+import Nextjs from "../assets/nextjslogo.png"
 import Golang from '../assets/gologo.png'
 import Mongo from '../assets/mongologo.png'
 import Typescript from '../assets/typescriptlogo.png'
@@ -29,21 +30,22 @@ const Aboutme = () => {
 
           <div className="mt-8 flex h-28 w-screen items-center justify-center gap-x-8">
             <h2 className="max-w-[250px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I&apos;ve worked with </h2>
-            <img className="h-16 w-16"  src={JSlogo}/>
-            <img className="h-16 w-16"  src={Reactlogo}/>
-            <img className="h-16 w-16"  src={Node}/>
-            <img className="h-16 w-16"  src={Mongo}/>
-            <img className="h-16 w-16"  src={Tailwind}/>
+            <img className="h-20 w-20"  src={JSlogo}/>
+            <img className="h-20 w-20 "  src={Reactlogo}/>
+            <img className="h-20 w-20 "  src={Node}/>
+            <img className="h-20 w-20 "  src={Nextjs}/>
+            <img className="h-20 w-20 "  src={Mongo}/>
+            <img className="h-20 w-20 "  src={Tailwind}/>
           </div>
           <div className="flex h-28 w-screen items-center justify-center gap-x-8">
             <h2 className=" max-w-[240px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I&apos;m discovering </h2>
-            <img className="h-16 w-16" src={Golang}/>
-            <img className="h-16 w-16"  src={Typescript}/>
+            <img className="h-20 w-20 " src={Golang}/>
+            <img className="h-20 w-20 "  src={Typescript}/>
           </div>
           <div className="flex h-28 w-screen items-center justify-center gap-x-8">
             <h2 className="max-w-[410px] animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black text-lg text-black">Technologies I plan to master in the next few years </h2>
-            <img className="h-16 w-16"  src={Solidity}/>
-            <img className="h-16 w-16"  src={Rust}/>
+            <img className="h-20 w-20 "  src={Solidity}/>
+            <img className="h-20 w-20 "  src={Rust}/>
           </div>
         </div>
       </div>

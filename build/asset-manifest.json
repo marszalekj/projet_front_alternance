@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/projet_portfolio/static/css/main.8d8f52a3.css",
-    "main.js": "/projet_portfolio/static/js/main.e410be96.js",
+    "main.css": "/projet_portfolio/static/css/main.cbb96335.css",
+    "main.js": "/projet_portfolio/static/js/main.57144536.js",
     "static/media/moi.png": "/projet_portfolio/static/media/moi.ba195630725333e2887b.png",
     "static/media/logolinkedin.png": "/projet_portfolio/static/media/logolinkedin.938492b586440d799c69.png",
+    "static/media/nextjslogo.png": "/projet_portfolio/static/media/nextjslogo.644e86ec6ae8d96c7ebd.png",
     "static/media/nodelogo.png": "/projet_portfolio/static/media/nodelogo.749b8af67e60d6b0dcab.png",
     "static/media/arobase.png": "/projet_portfolio/static/media/arobase.ee13c1b0ad93a7ad06c6.png",
     "static/media/reactlogo.png": "/projet_portfolio/static/media/reactlogo.35d1e8f5aa34eda53e54.png",
@@ -14,11 +15,11 @@
     "index.html": "/projet_portfolio/index.html",
     "static/media/chevron-double-right.svg": "/projet_portfolio/static/media/chevron-double-right.89bbf7f4e27b290a01dcf8e0eb42e40f.svg",
     "static/media/chevron-double-left.svg": "/projet_portfolio/static/media/chevron-double-left.63887a49a460b7b4ed31e3771b0427d5.svg",
-    "main.8d8f52a3.css.map": "/projet_portfolio/static/css/main.8d8f52a3.css.map",
-    "main.e410be96.js.map": "/projet_portfolio/static/js/main.e410be96.js.map"
+    "main.cbb96335.css.map": "/projet_portfolio/static/css/main.cbb96335.css.map",
+    "main.57144536.js.map": "/projet_portfolio/static/js/main.57144536.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d8f52a3.css",
-    "static/js/main.e410be96.js"
+    "static/css/main.cbb96335.css",
+    "static/js/main.57144536.js"
   ]
 }
